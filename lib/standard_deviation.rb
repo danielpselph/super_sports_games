@@ -1,5 +1,10 @@
 ages = [24, 30, 18, 20, 41]
 
-# Your code here for calculating the standard deviation
+sum = ages.sum
 
-# When you find the standard deviation, print it out
+p sum
+
+def integer_count
+  ages = [24, 30, 18, 20, 41]
+  ages.find_all do |age|
+    (Integer)
