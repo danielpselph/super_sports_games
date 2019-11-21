@@ -43,11 +43,10 @@ divide_array_info
 
 def subtraction1
   ages = [24, 30, 18, 20, 41]
-  ages.each do |age|
-  sub_array = Array.new << (age -26.6)
-  p sub_array
+  sub_array = ages.map do |age|
+  (age -26.6).round(1)
   end
-
+  p sub_array
 end
 
 subtraction1
