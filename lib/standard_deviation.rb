@@ -50,3 +50,12 @@ def subtraction1
 end
 
 subtraction1
+
+def squared_array
+  sq_array = subtraction1.map do |age|
+    (age ** 2).round(2)
+  end
+  p sq_array
+end
+
+squared_array
