@@ -28,14 +28,26 @@ divide_array_info
 #   new_total = ages.map {|age| ages - 2}
 #   p new_total
 # end
+# #
+# # subtract_by_average
 #
-# subtract_by_average
+# def subtraction
+#   ages = [24, 30, 18, 20, 41]
+#   new_array = ages.to_f
+#
+#   new_total = new_array.map {|age| ages -= 26.6}
+#   p new_total
+# end
+#
+# subtraction
 
-def subtraction
+def subtraction1
   ages = [24, 30, 18, 20, 41]
-  ages.reduce(0) {|sum, num| -26.6, }
-end
-  p ages
+  ages.each do |age|
+  sub_array = Array.new << (age -26.6)
+  p sub_array
+  end
+
 end
 
-subtraction
+subtraction1
