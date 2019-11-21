@@ -22,3 +22,20 @@ def divide_array_info
 end
 
 divide_array_info
+
+# def subtract_by_average
+#   ages = [24, 30, 18, 20, 41]
+#   new_total = ages.map {|age| ages - 2}
+#   p new_total
+# end
+#
+# subtract_by_average
+
+def subtraction
+  ages = [24, 30, 18, 20, 41]
+  ages.reduce(0) {|sum, num| -26.6, }
+end
+  p ages
+end
+
+subtraction
