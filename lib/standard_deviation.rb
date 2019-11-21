@@ -66,3 +66,16 @@ def sum_of_array
 end
 
 sum_of_array
+
+def step_7 #integer_count
+  step_total = sum_of_array / integer_count
+  p step_total
+end
+
+step_7
+
+def square_root
+  p Math.sqrt(step_7).round(2)
+end
+
+square_root
