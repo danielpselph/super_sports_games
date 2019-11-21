@@ -59,3 +59,10 @@ def squared_array
 end
 
 squared_array
+
+def sum_of_array
+ sum_of_sq_array = squared_array.sum
+ p sum_of_sq_array
+end
+
+sum_of_array
